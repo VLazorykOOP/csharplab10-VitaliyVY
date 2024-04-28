@@ -87,12 +87,14 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
         while (true)
         {
-            Console.WriteLine("Меню:");
+            Console.WriteLine("\nМеню:");
             Console.WriteLine("1. Перевірити чи є рядок зворотнім до іншого");
             Console.WriteLine("2. Моделювання життя коня");
-            Console.WriteLine("0. Вихід");
+            Console.WriteLine("0. Вихід\n");
             Console.Write("Виберіть опцію: ");
 
             int choice;
