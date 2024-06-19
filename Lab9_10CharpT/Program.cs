@@ -92,8 +92,8 @@ class Program
         while (true)
         {
             Console.WriteLine("\nМеню:");
-            Console.WriteLine("1. Перевірити чи є рядок зворотнім до іншого");
-            Console.WriteLine("2. Моделювання життя коня");
+            Console.WriteLine("1./ Перевірити чи є рядок зворотнім до іншого");
+            Console.WriteLine("2.. Моделювання життя коня");
             Console.WriteLine("0. Вихід\n");
             Console.Write("Виберіть опцію: ");
 
